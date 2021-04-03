@@ -1,0 +1,63 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html{
+  font-size: 45px;
+}
+body {
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+  background-image: url(coffeeCollage.jpg);
+  background-size: cover;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+h1{
+  text-align: center;
+}
+.orders{
+margin-left: 465px;
+}
+.order{
+  text-align: center;
+  color: aqua;
+}
+.login{
+  font-size: 20px;
+  font-family:'Titillium Web', sans-serif;
+}
+footer {
+
+}
+
+section{
+  border: 1px solid black;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
